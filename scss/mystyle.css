@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Economica', sans-serif;
+  font-size: 400%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.log {
+  font-size: 150%;
+}
+
+.log a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  margin: 1%;
+}
+
+nav {
+  font-size: 150%;
+  color: black;
+}
+
+.cryptoGrid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 20px;
+}
+/*# sourceMappingURL=mystyle.css.map */
